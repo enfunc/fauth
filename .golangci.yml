@@ -1,0 +1,22 @@
+linters:
+  enable-all: true
+  disable:
+    - wsl
+    - goerr113
+    - paralleltest
+    - varnamelen
+    - exhaustivestruct
+    - exhaustruct
+    - nlreturn
+
+linters-settings:
+  maligned:
+    suggest-new: true
+  misspell:
+    locale: US
+
+run:
+  go: '1.18'
+  timeout: 1m
+  skip-files:
+    - '.*_test.go$'
