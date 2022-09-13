@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/enfunc/fauth)](https://goreportcard.com/report/github.com/enfunc/fauth)
+
 # Fauth
 
 `fauth` lets you create Firebase Auth middleware with ease. It's a simple wrapper of the [Firebase Admin Auth API](https://firebase.google.com/docs/auth/admin).
