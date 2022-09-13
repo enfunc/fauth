@@ -2,7 +2,7 @@
 
 `fauth` lets you create Firebase Auth middleware with ease. It's a simple wrapper of the [Firebase Admin Auth API](https://firebase.google.com/docs/auth/admin).
 
-```go  
+```shell
 go get -u github.com/enfunc/fauth  
 ```  
 
